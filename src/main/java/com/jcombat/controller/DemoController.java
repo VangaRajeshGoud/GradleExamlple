@@ -11,6 +11,6 @@ public class DemoController {
 	@RequestMapping("/")
 	public String welcome(Map<String, Object> model) {
 System.out.println("aaaggg");
-		return "welcome";
+		return "welcomeRameh";
 	}
 }
